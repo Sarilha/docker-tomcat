@@ -1,3 +1,3 @@
 # docker-tomcat
 
-Docker images for Tomcat
+Docker images for Tomcat 7
