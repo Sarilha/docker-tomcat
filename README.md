@@ -2,5 +2,8 @@
 
 Docker images for Tomcat
 
+[![Docker Build](https://img.shields.io/docker/automated/andreluiznsilva/tomcat.svg)](https://registry.hub.docker.com/u/andreluiznsilva/tomcat)
+[![Docker Stars](https://img.shields.io/docker/stars/andreluiznsilva/tomcat.svg)](https://registry.hub.docker.com/u/andreluiznsilva/tomcat)
+[![Docker Pulls](https://img.shields.io/docker/pulls/andreluiznsilva/tomcat.svg)](https://registry.hub.docker.com/u/andreluiznsilva/tomcat)
 
-[![](https://badge.imagelayers.io/andreluiznsilva/java:latest.svg)](https://imagelayers.io/?images=andreluiznsilva/java:latest 'Get your own badge on imagelayers.io')
+
