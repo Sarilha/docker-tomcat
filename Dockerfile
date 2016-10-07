@@ -1,6 +1,6 @@
-# Tomcat 8 image
+# Tomcat 7 image
 
-FROM tomcat:8
+FROM tomcat:7
 
 MAINTAINER Andre Nascimento <andreluiznsilva@gmail.com>
 

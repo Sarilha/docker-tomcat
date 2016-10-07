@@ -1,5 +1,5 @@
 example:
-  image: andreluiznsilva/tomcat
+  image: andreluiznsilva/tomcat:7
   ports:
     - 8080:8080
     - 8443:8443
