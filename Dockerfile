@@ -15,8 +15,10 @@ EXPOSE 8080 8443
 
 RUN keytool -genkey -noprompt -alias tomcat -dname "CN=localhost, OU=ID, O=docker, L=Hursley, S=Hants, C=GB" -keyalg RSA -keystore /root/.keystore -storepass changeit -keypass changeit
 
-COPY entrypoint.sh entrypoint.sh
+COPY entrypoint.sh ./entrypoint.sh
 
-ENTRYPOINT ["entrypoint.sh"]
+RUN chmod +x ./entrypoint.sh
+
+ENTRYPOINT ["./entrypoint.sh"]
 
 CMD ["catalina.sh", "run"]
